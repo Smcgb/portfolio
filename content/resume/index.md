@@ -11,7 +11,7 @@ Data Analyst, Project Manager, and IT Engineer. Contact me at [me@shaneboyce.dev
 - Administer systems for about 400 users across support, dealer and utility, infrastructure, and sales operations
 - Own data governance compliance, vendor negotiations, and cost-benefit analyses for executive decisions
 - Build ETL with Python and APIs, plus Power Apps, Power Automate flows, and Power BI dashboards
-- Saved about **$80K/year** with a SharePoint-to-Azure data migration script
+- Saved about **$450K/year** with a SharePoint-to-Azure data migration script
 - Cut about **$150K** in annual software expenses and licenses
 - Saved **7 hours/month** of manual work through Zendesk API automation
 - Migrated support systems to Dynamics 365
