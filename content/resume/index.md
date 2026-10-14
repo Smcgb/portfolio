@@ -48,11 +48,38 @@ Predictive modeling, data mining I and II, and exploratory data analysis. My cou
 
 ## Certifications
 
-- CompTIA A+, IT Operations Specialist (CIOS), and Project+
-- ITIL 5 Foundation and ITIL 4 Foundation, AXELOS
-- Google IT Support Professional Certificate
-- Google Project Management Certificate
-- Data Analysis with Excel Pivot Tables, Maven Analytics
+In each area, industry certifications come first, then platform certifications with timed exams and practical assessments, then supporting coursework.
+
+### IT service management
+
+The framework behind my day job: running service desks and business systems on Zendesk, Dynamics 365, and the Power Platform.
+
+- **ITIL 5 Foundation** and **ITIL 4 Foundation**, PeopleCert / AXELOS · [verify ITIL 4](https://badges.peoplecert.org/Badge/en/A9CEAC0D-D153-4D3F-815E-B829A699BA0A)
+- **CompTIA A+** and **CompTIA Network+**, active through 2027 · [verify A+](https://www.credly.com/badges/40e3575c-4cdc-4e25-b162-c45c218ea37d), [verify Network+](https://www.credly.com/badges/bcad22a5-6478-4bed-908c-a105323864c7)
+
+Supporting coursework: Zendesk product badges in Support, Explore analytics, Agent Workspace, Messaging, Talk, and Knowledge (2022)
+
+### Data analytics and engineering
+
+Where I like to spend my time: modeling, reporting, and the pipelines that feed them.
+
+- **Microsoft Certified: Power BI Data Analyst Associate (PL-300)**, Microsoft · [verify](https://learn.microsoft.com/en-us/users/shaneboyce-6487/credentials?tab=credentials-tab)
+- **DataCamp Data Engineer**, 2025 to 2027 · [verify](https://www.datacamp.com/certificate/DE0011264637577)
+- **DataCamp Data Analyst Associate**, 2025 to 2027 · [verify](https://www.datacamp.com/certificate/DAA0014486555680)
+
+Supporting coursework: [Google Data Analytics Professional Certificate](https://www.credly.com/badges/eb5ea63b-c58c-4902-ae03-1cdb799542fc) (2022). Graduate-level training is covered by my MS in Data Analytics above.
+
+### Project delivery
+
+How I run implementations and migrations end to end.
+
+- **Project Management Professional (PMP)**, Project Management Institute, 2025 · [verify](https://www.credly.com/badges/3c2703ee-1406-4a80-b69a-458195a784dc)
+
+Supporting coursework: PMI Generative AI for Project Managers series (2025)
+
+### Cloud and development
+
+No badges here. My Python, Azure, and full-stack work is shown through [my projects](/projects) and [GitHub](https://github.com/smcgb), including the static site generator that builds this page.
 
 ## Skills
 
