@@ -1,5 +1,7 @@
 # Hi, I'm Shane.
 
+#### MBA, IT Management · MS, Data Analytics · PMP · ITIL 4 and 5 · PL-300
+
 I'm an ITSM developer: I build the scripts, integrations, and reporting that make IT service management work. I'm especially drawn to data analytics and engineering, and I like building with cloud services, Python, and full-stack tools.
 
 Right now I'm at Oregon State Credit Union, helping Information Services adopt ITIL. We're starting from no formal ITIL practice, and this is year one of a multiyear plan. My job is to make good process the easy path: I automate the busywork, surface the data, and help five IS teams through the change.

@@ -122,8 +122,16 @@ article h1 {
   margin: 0 0 1rem;
 }
 
-/* first paragraph under the page title reads as a lede */
-article h1 + p {
+/* credentials tagline directly under the page title */
+article h1 + h4 {
+  color: var(--accent);
+  margin: -0.25rem 0 1.5rem;
+  line-height: 1.5;
+}
+
+/* first paragraph under the page title (or its tagline) reads as a lede */
+article h1 + p,
+article h1 + h4 + p {
   font-size: 1.2rem;
   color: var(--muted);
   margin-bottom: 2rem;
