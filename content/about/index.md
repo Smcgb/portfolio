@@ -1,26 +1,28 @@
 # About
 
-I'm a multi-disciplinary data analyst, project manager, and IT engineer who likes making messy systems work better.
+I'm an ITSM developer who builds the tooling and data behind IT service management. I also have a passion for data analytics and engineering, and I like building with cloud services, Python, and full-stack tools.
 
-## What I do
+## What I do now
 
-Over the last five-plus years I've worked with Python, SQL, Azure, AWS, and Google Cloud to integrate systems, automate operations, and turn raw data into something people can act on. Today I'm a Power Platform IT Engineer at Freedom Forever, where I support about 400 users across support, dealer and utility, infrastructure, and sales operations.
+At Oregon State Credit Union, I'm the advocate for ITIL and ITSM best practices in Information Services. I'm also the organizational change manager. The organization is starting from no formal ITIL maturity, and getting to level one is the first stage of a multiyear effort. Changing a culture is slow, so most of my wins are process wins: Adopting Change Enablement slowly, categorization of tickets, enabling AI empowered work and making our way towards ITIL5 hybrid agile processes.
 
-Before that, I was an Implementation Consultant and Business Intelligence subject-matter expert with Zendesk and Envoy Professional Services. There I ran up to 15 enterprise implementations at once and finished every one of 80 projects with a 100% CSAT score.
+The technical work supports that. I write custom scripts and API integrations around SolarWinds, analyze the data in our ITSM system, and build Power Automate flows and Power BI reports. The goal is to help five teams work better together: operations, infrastructure, digital solutions for online banking, the data platform analysts, and core banking systems.
 
 ## How I got here
 
-Before data, I worked in education, including as an AmeriCorps member with City Year Philadelphia. Teaching taught me to explain complicated things simply, and that's still the most useful skill I bring to a data project.
+Before data, I worked in education, including as an AmeriCorps member with City Year Philadelphia. Teaching taught me to explain complicated things simply, which turns out to be most of change management.
 
-I went on to earn a BS in Data Management and Data Analytics, an MS in Data Analytics, and an MBA in IT Management, all from Western Governors University. I keep learning through certifications and side projects. Lately that means writing [my own static site generator](/projects/static-site-generator), which built the site you're reading, along with other projects from the [Boot.dev](https://www.boot.dev) backend curriculum.
+From there I moved into SaaS customer success and implementation. I was an Implementation Consultant and Business Intelligence subject-matter expert with Zendesk and Envoy Professional Services. I ran up to 15 enterprise rollouts at once and finished all 80 projects with 100% CSAT. Then I spent time as a Power Platform IT Engineer at Freedom Forever, a residential solar company. I supported about 400 users there and automated my way to six-figure savings. One example is a [SharePoint migration script](/projects/automating-sharepoint-online-migration-streamlining-and-saving-450k-annually) that saved about $450K a year.
 
-## What I focus on
+Along the way I earned a BS in Data Management and Data Analytics, an MS in Data Analytics, and an MBA in IT Management from Western Governors University. I've also earned the PMP, PL-300, ITIL 4 and 5 Foundation, and DataCamp Data Engineer certifications.
 
-- **Analytics:** Python, SQL, statistics, and machine learning to answer business questions
-- **Automation:** APIs, Power Automate, and Azure Functions to take repetitive work off people's plates
-- **Visualization:** Power BI and Tableau dashboards that leaders actually open
-- **Systems:** migrations, integrations, and data governance across Microsoft 365, Dynamics 365, Zendesk, and Salesforce
+## What drives me
+
+- **Service management that people actually use.** ITIL is only as good as the habits it builds, so I focus on adoption over paperwork.
+- **Data that answers questions.** I'd rather build one dashboard a team opens every morning than ten they don't.
+- **Automation over heroics.** If someone does a task by hand twice, it's a candidate for a script.
+- **Building to understand.** I write tools from scratch, like [the static site generator behind this site](/projects/static-site-generator), to learn how things work underneath.
 
 ## Outside of work
 
-I'm a dedicated father and a foster parent, and our family is on the waiting list for open adoption. I'm also into esports, Linux, and tinkering with my desktop setup.
+I'm a dedicated father and a foster parent, and our family is on the waiting list for open adoption.

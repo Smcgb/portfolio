@@ -1,12 +1,23 @@
 # Resume
 
-Data Analyst, Project Manager, and IT Engineer. Contact me at [me@shaneboyce.dev](mailto:me@shaneboyce.dev), [LinkedIn](https://linkedin.com/in/shane-boyce), or [GitHub](https://github.com/smcgb).
+ITSM developer with a passion for data analytics and engineering. Contact me at [me@shaneboyce.dev](mailto:me@shaneboyce.dev), [LinkedIn](https://linkedin.com/in/shane-boyce), or [GitHub](https://github.com/smcgb).
 
 ## Experience
 
+### TITLE-TBD, Oregon State Credit Union
+
+#### START-TBD to present · Oregon
+
+- Champion ITIL and ITSM best practices across Information Services, leading the organization from no formal ITIL maturity toward its first maturity level as part of a multiyear roadmap
+- Serve as organizational change manager, guiding teams through new processes, tooling, and ways of working
+- Write custom scripts and API integrations to extend and connect the SolarWinds ITSM platform
+- Analyze ITSM data and build Power BI reporting that gives IS teams visibility into demand, workload, and service health
+- Automate service workflows with Power Automate
+- Support five IS teams: operations, infrastructure, digital solutions (online banking), data platform analysts, and core banking systems
+
 ### Power Platform IT Engineer, Freedom Forever
 
-#### 2023 to present · Remote (Temecula, CA)
+#### 2023 to END-TBD · Remote (Temecula, CA)
 
 - Administer systems for about 400 users across support, dealer and utility, infrastructure, and sales operations
 - Own data governance compliance, vendor negotiations, and cost-benefit analyses for executive decisions
