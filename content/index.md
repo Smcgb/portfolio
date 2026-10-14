@@ -15,9 +15,10 @@ Right now I'm at Oregon State Credit Union, helping Information Services adopt I
 
 ## Selected impact
 
-- Leading the first steps toward ITIL maturity across operations, infrastructure, digital banking, data platform, and core banking teams. _Oregon State Credit Union, START-TBD to present_
-- **~$450K/year** saved by a Python-driven SharePoint Online migration. _Freedom Forever, 2023 to END-TBD_
-- **~$150K/year** cut from software expenses and licensing. _Freedom Forever, 2023 to END-TBD_
+- Leading a service catalog redesign, SLA governance, and change enablement as the first steps toward ITIL maturity across five IS teams. _Oregon State Credit Union, 2026 to present_
+- Wrote city-wide technology policies and SOPs, and built SQL, Python, and Power BI reporting for city operations. _City of Corvallis, 2024 to 2026_
+- **~$450K/year** saved by a Python-driven SharePoint Online migration. _Freedom Forever, 2023 to 2024_
+- **~$150K/year** cut from software expenses and licensing. _Freedom Forever, 2023 to 2024_
 - **100% project CSAT** across 80 enterprise Zendesk implementations. _Zendesk and Envoy Professional Services, 2022 to 2023_
 
 ## Featured projects

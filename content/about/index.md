@@ -6,13 +6,17 @@ I'm an ITSM developer who builds the tooling and data behind IT service manageme
 
 At Oregon State Credit Union, I'm the advocate for ITIL and ITSM best practices in Information Services. I'm also the organizational change manager. The organization is starting from no formal ITIL maturity, and getting to level one is the first stage of a multiyear effort. Changing a culture is slow, so most of my wins are process wins: Adopting Change Enablement slowly, categorization of tickets, enabling AI empowered work and making our way towards ITIL5 hybrid agile processes.
 
-The technical work supports that. I write custom scripts and API integrations around SolarWinds, analyze the data in our ITSM system, and build Power Automate flows and Power BI reports. The goal is to help five teams work better together: operations, infrastructure, digital solutions for online banking, the data platform analysts, and core banking systems.
+The technical work supports that. I build workflows, SLA policies, and a redesigned service catalog in SolarWinds Service Desk. I connect it to SharePoint, Power Platform, Azure DevOps, and our identity systems with Python and PowerShell, and I report on all of it in Power BI. The goal is to help five teams work better together: operations, infrastructure, digital solutions for online banking, the data platform analysts, and core banking systems.
 
 ## How I got here
 
 Before data, I worked in education, including as an AmeriCorps member with City Year Philadelphia. Teaching taught me to explain complicated things simply, which turns out to be most of change management.
 
 From there I moved into SaaS customer success and implementation. I was an Implementation Consultant and Business Intelligence subject-matter expert with Zendesk and Envoy Professional Services. I ran up to 15 enterprise rollouts at once and finished all 80 projects with 100% CSAT. Then I spent time as a Power Platform IT Engineer at Freedom Forever, a residential solar company. I supported about 400 users there and automated my way to six-figure savings. One example is a [SharePoint migration script](/projects/automating-sharepoint-online-migration-streamlining-and-saving-450k-annually) that saved about $450K a year.
+
+Next I moved into public service as an IS Analyst for the City of Corvallis. There I administered the systems that keep city operations running, wrote city-wide technology policies and SOPs, and built SQL, Python, and Power BI reporting.
+
+Alongside my full-time work, I take freelance data analytics projects through shaneboyce.dev. I help nonprofits use their fundraising data, develop graduate-level course material on LLMs and deep learning, mentor students in data analytics and computer science, and write content for learning platforms like Analyst Builder.
 
 Along the way I earned a BS in Data Management and Data Analytics, an MS in Data Analytics, and an MBA in IT Management from Western Governors University. I've also earned the PMP, PL-300, ITIL 4 and 5 Foundation, and DataCamp Data Engineer certifications.
 

@@ -4,24 +4,38 @@ ITSM developer with a passion for data analytics and engineering. Contact me at 
 
 ## Experience
 
-### TITLE-TBD, Oregon State Credit Union
+### ITSM Developer, Oregon State Credit Union
 
-#### START-TBD to present · Oregon
+#### March 2026 to present · Hybrid (Oregon)
 
-- Champion ITIL and ITSM best practices across Information Services, leading the organization from no formal ITIL maturity toward its first maturity level as part of a multiyear roadmap
-- Serve as organizational change manager, guiding teams through new processes, tooling, and ways of working
-- Write custom scripts and API integrations to extend and connect the SolarWinds ITSM platform
-- Analyze ITSM data and build Power BI reporting that gives IS teams visibility into demand, workload, and service health
-- Automate service workflows with Power Automate
-- Support five IS teams: operations, infrastructure, digital solutions (online banking), data platform analysts, and core banking systems
+- Lead ITSM platform development, process governance, and automation across Information Services, advancing the organization from no formal ITIL practice toward its first maturity level
+- Serve as organizational change manager and ITIL advocate for five IS teams: operations, infrastructure, digital solutions (online banking), data platform analysts, and core banking systems
+- Design workflows, automation rules, and SLA frameworks in SolarWinds Service Desk to standardize incident, request, and change management
+- Lead the service catalog redesign: new taxonomy, consolidation of redundant services, and a clean split between incidents and requests
+- Build integrations with SharePoint, Power Platform, Azure DevOps, GitHub, and identity systems using Python and PowerShell, automating onboarding and offboarding, knowledge base publishing, and service fulfillment
+- Implement SLA policies with automated breach tracking, escalation, and notifications
+- Strengthen change enablement with approval workflows, governance controls, standardized templates, and CAB-ready documentation
+- Build CMDB structures and data governance practices for asset tracking, system relationships, and cross-team reporting
+- Analyze incident trends and build Power BI dashboards for SLA compliance, service performance, and operational trends
+
+### IS Analyst, City of Corvallis
+
+#### December 2024 to March 2026 · Hybrid (Corvallis, OR)
+
+- Administered SaaS and on-premises systems critical to city operations
+- Analyzed user requirements to enhance applications and automate workflows
+- Developed city-wide technology policies and standard operating procedures, balancing technical, ethical, and legal requirements
+- Built short- and long-term technology plans for system optimization
+- Extracted, transformed, analyzed, and visualized data with SQL, Python, and Power BI to drive operational efficiency
+- Monitored system performance and data integrity, trained users, and maintained self-service knowledge bases
 
 ### Power Platform IT Engineer, Freedom Forever
 
-#### 2023 to END-TBD · Remote (Temecula, CA)
+#### 2023 to September 2024 · Remote (Temecula, CA)
 
-- Administer systems for about 400 users across support, dealer and utility, infrastructure, and sales operations
-- Own data governance compliance, vendor negotiations, and cost-benefit analyses for executive decisions
-- Build ETL with Python and APIs, plus Power Apps, Power Automate flows, and Power BI dashboards
+- Administered systems for about 400 users across support, dealer and utility, infrastructure, and sales operations
+- Owned data governance compliance, vendor negotiations, and cost-benefit analyses for executive decisions
+- Built ETL with Python and APIs, plus Power Apps, Power Automate flows, and Power BI dashboards
 - Saved about **$450K/year** with a SharePoint-to-Azure data migration script
 - Cut about **$150K** in annual software expenses and licenses
 - Saved **7 hours/month** of manual work through Zendesk API automation
@@ -38,6 +52,17 @@ ITSM developer with a passion for data analytics and engineering. Contact me at 
 - Delivered 30+ enterprise Zendesk projects with **100% CSAT** across 80 projects
 - Reduced phone handle time by 3 minutes and ticket volume by 20% for clients
 - Reduced tier 1 interactions by more than 20% through ticket deflection
+
+## Consulting and teaching
+
+### Data Analyst (freelance), shaneboyce.dev
+
+#### May 2023 to present · Oregon
+
+- Consult with nonprofits on using data more effectively in fundraising
+- Help higher education institutions develop graduate-level course material on LLM usage and deep learning
+- Mentor undergraduate students in data analytics and computer science, and support graduate students in data analytics
+- Author content for data analytics e-learning platforms, including Analyst Builder and OSSU Data Science
 
 ## Education
 
