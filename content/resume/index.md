@@ -49,7 +49,7 @@ Predictive modeling, data mining I and II, and exploratory data analysis. My cou
 ## Certifications
 
 - CompTIA A+, IT Operations Specialist (CIOS), and Project+
-- ITIL Foundation, AXELOS
+- ITIL 5 Foundation and ITIL 4 Foundation, AXELOS
 - Google IT Support Professional Certificate
 - Google Project Management Certificate
 - Data Analysis with Excel Pivot Tables, Maven Analytics
