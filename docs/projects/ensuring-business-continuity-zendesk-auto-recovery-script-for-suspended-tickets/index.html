@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Shane Boyce: data analyst, project manager, and Power Platform IT engineer in Portland, Oregon." />
+    <title>Ensuring Business Continuity: Zendesk Auto-Recovery Script for Suspended Tickets | Shane Boyce</title>
+    <link href="/index.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/">Shane Boyce</a>
+      <nav>
+        <a href="/about">About</a>
+        <a href="/projects">Projects</a>
+        <a href="/resume">Resume</a>
+        <a href="/contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <article><div><h1>Ensuring Business Continuity: Zendesk Auto-Recovery Script for Suspended Tickets</h1><p><b>Python · Zendesk API · Azure</b> · <a href="https://github.com/smcgb/Zendesk_autorecover" >View the code</a></p><h2>The problem</h2><p>In solar, nothing gets installed until the permits and utility interconnection approvals come through. Our team relied on Zendesk to turn incoming emails into support cases for those requests.</p><p>Zendesk limits each sending domain to <b>400 emails per hour</b>. Anything past that gets suspended, and suspended emails don't become tickets. On busy days, critical permit and interconnection requests sat in the suspended queue. That delayed installations and, with them, revenue recognition.</p><h2>The approach</h2><p>I wrote a Python script that continuously monitors a designated inbox, identifies tickets suspended by the rate limit, and recovers them into active Zendesk cases. That works around the hourly bottleneck and removes the need for someone to check the queue and recover tickets by hand.</p><h2>The results</h2><blockquote>An estimated <b>$50,000 per month</b> in savings, with no more missed or delayed cases from the hourly limit and no manual recovery work.</blockquote><p>The code is MIT-licensed, so you're welcome to adapt it for your own Zendesk instance.</p><p><a href="/projects" >Back to projects</a></p></div></article>
+    </main>
+
+    <footer class="site-footer">
+      <nav>
+        <a href="https://github.com/smcgb">GitHub</a>
+        <a href="https://linkedin.com/in/shane-boyce">LinkedIn</a>
+        <a href="https://www.youtube.com/@shanemboyce">YouTube</a>
+        <a href="mailto:me@shaneboyce.dev">me@shaneboyce.dev</a>
+      </nav>
+      <p>Built with a <a href="https://github.com/smcgb/static-site-generator">static site generator I wrote in Python</a>.</p>
+    </footer>
+  </body>
+</html>

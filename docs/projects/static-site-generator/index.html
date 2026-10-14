@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Shane Boyce: data analyst, project manager, and Power Platform IT engineer in Portland, Oregon." />
+    <title>Static Site Generator | Shane Boyce</title>
+    <link href="/index.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/">Shane Boyce</a>
+      <nav>
+        <a href="/about">About</a>
+        <a href="/projects">Projects</a>
+        <a href="/resume">Resume</a>
+        <a href="/contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <article><div><h1>Static Site Generator</h1><p><b>Python · unittest</b> · <a href="https://github.com/smcgb/static-site-generator" >View the code</a></p><h2>Why build one</h2><p>Plenty of static site generators already exist. I wanted to understand how Markdown actually becomes HTML, so I built one from scratch as part of the <a href="https://www.boot.dev" >Boot.dev</a> curriculum. It uses no Markdown libraries, only the Python standard library.</p><p>This website is built with it. I moved my portfolio off Squarespace and onto GitHub Pages, so every page here started as a Markdown file.</p><h2>How it works</h2><ol><li><b>Inline parsing:</b> text is split into typed <code>TextNode</code> runs for bold, italic, code, links, and images</li><li><b>Block parsing:</b> documents are split into blocks and classified as paragraphs, headings, code, quotes, or lists</li><li><b>HTML tree:</b> each block becomes a small HTML AST of <code>LeafNode</code> and <code>ParentNode</code> objects that render themselves to HTML strings</li><li><b>Page generation:</b> every Markdown file under <code>content/</code> is rendered into an HTML template, mirroring the directory structure, and static assets are copied alongside</li></ol><p>Every module has its own <code>unittest</code> suite.</p><h2>How this site uses it</h2><p>The generator lives in this site's repository as a git submodule. Writing a new page is just adding a Markdown file and running the build script. The output is committed to <code>docs/</code> and served by GitHub Pages.</p><p><a href="/projects" >Back to projects</a></p></div></article>
+    </main>
+
+    <footer class="site-footer">
+      <nav>
+        <a href="https://github.com/smcgb">GitHub</a>
+        <a href="https://linkedin.com/in/shane-boyce">LinkedIn</a>
+        <a href="https://www.youtube.com/@shanemboyce">YouTube</a>
+        <a href="mailto:me@shaneboyce.dev">me@shaneboyce.dev</a>
+      </nav>
+      <p>Built with a <a href="https://github.com/smcgb/static-site-generator">static site generator I wrote in Python</a>.</p>
+    </footer>
+  </body>
+</html>

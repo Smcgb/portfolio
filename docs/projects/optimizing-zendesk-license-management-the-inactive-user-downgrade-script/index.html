@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Shane Boyce: data analyst, project manager, and Power Platform IT engineer in Portland, Oregon." />
+    <title>Optimizing Zendesk License Management: The Inactive User Downgrade Script | Shane Boyce</title>
+    <link href="/index.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/">Shane Boyce</a>
+      <nav>
+        <a href="/about">About</a>
+        <a href="/projects">Projects</a>
+        <a href="/resume">Resume</a>
+        <a href="/contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <article><div><h1>Optimizing Zendesk License Management: The Inactive User Downgrade Script</h1><p><b>Python · Zendesk API · Azure Functions</b> · <a href="https://github.com/smcgb/Zendesk-Downgrade-Inactive" >View the code</a></p><h2>The problem</h2><p>I manage several Zendesk tenants with more than 400 users between them, and that user base changes constantly. Tracking who was still active by hand was slow and error-prone. Unused licenses went unnoticed at renewal, and accounts stayed active long after anyone needed them.</p><h2>The approach</h2><p>I wrote a Python script that uses the Zendesk API to find agents who have <b>never logged in</b> or have been <b>inactive for more than 45 days</b>, and downgrades them automatically. It runs on a schedule, so the cleanup happens without anyone having to remember it.</p><h2>The results</h2><ul><li><b>Lower costs:</b> fewer seats at license renewal</li><li><b>Better security:</b> inactive accounts, especially missed off-boardings, don't linger with agent access</li><li><b>Time back:</b> significant time saved each month on manual audits</li></ul><p>The code is MIT-licensed and designed to be easy to modify.</p><p><a href="/projects" >Back to projects</a></p></div></article>
+    </main>
+
+    <footer class="site-footer">
+      <nav>
+        <a href="https://github.com/smcgb">GitHub</a>
+        <a href="https://linkedin.com/in/shane-boyce">LinkedIn</a>
+        <a href="https://www.youtube.com/@shanemboyce">YouTube</a>
+        <a href="mailto:me@shaneboyce.dev">me@shaneboyce.dev</a>
+      </nav>
+      <p>Built with a <a href="https://github.com/smcgb/static-site-generator">static site generator I wrote in Python</a>.</p>
+    </footer>
+  </body>
+</html>

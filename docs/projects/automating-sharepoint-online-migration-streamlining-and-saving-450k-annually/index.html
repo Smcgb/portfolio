@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Shane Boyce: data analyst, project manager, and Power Platform IT engineer in Portland, Oregon." />
+    <title>Automating SharePoint Online Migration: Streamlining and Saving $450K Annually | Shane Boyce</title>
+    <link href="/index.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/">Shane Boyce</a>
+      <nav>
+        <a href="/about">About</a>
+        <a href="/projects">Projects</a>
+        <a href="/resume">Resume</a>
+        <a href="/contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <article><div><h1>Automating SharePoint Online Migration: Streamlining and Saving $450K Annually</h1><p><b>Python · SharePoint Online and Microsoft Graph APIs · Azure Active Directory</b> · <a href="https://github.com/smcgb/spo_migration" >View the code</a></p><h2>The problem</h2><p>Freedom Forever stores the AutoCAD build plans for every solar project in SharePoint Online. That data was growing by about <b>1.5 TB a month</b>, and keeping total storage under the <b>30 TB</b> ceiling meant paying for extra SharePoint capacity plus third-party SaaS tools like ShareGate.</p><p>Getting the data out wasn't simple:</p><ul><li>SharePoint Online is a web-page-based schema, not a true file share</li><li>Orchestration connectors don't keep the folder hierarchy for binary files</li><li>API limits apply per site</li><li>Manual moves are capped at 100 binary objects at a time</li><li>Any approach had to avoid downtime and data loss</li></ul><h2>The approach</h2><p>I wrote a Python script that talks directly to the SharePoint Online and Microsoft Graph APIs.</p><ol><li><b>Extraction and validation:</b> check each item's structure and integrity before transfer, so less needs fixing by hand afterward</li><li><b>Batch transfer:</b> move large volumes in batches over a connection secured with Azure Active Directory, rotating API keys to avoid token expiry</li><li><b>Error handling:</b> detect, log, and retry failures automatically, with detailed reports for auditing</li><li><b>Permissions:</b> carry user access and permissions across so nobody lost access or picked up access they shouldn't have</li><li><b>Testing:</b> validate data integrity, transfer speed, and compliance in a controlled environment, then tune iteratively</li></ol><p>Each instance moved about 25 GB/hour, and forward and reverse copies ran in parallel. For 20+ TB, that was far more reliable than OneDrive sync or direct downloads, which regularly corrupted large files and batches.</p><h2>The results</h2><blockquote>An estimated <b>$450,000 in cost savings</b> over a year, with storage held under the 30 TB ceiling and no paid migration tooling.</blockquote><p><a href="/projects" >Back to projects</a></p></div></article>
+    </main>
+
+    <footer class="site-footer">
+      <nav>
+        <a href="https://github.com/smcgb">GitHub</a>
+        <a href="https://linkedin.com/in/shane-boyce">LinkedIn</a>
+        <a href="https://www.youtube.com/@shanemboyce">YouTube</a>
+        <a href="mailto:me@shaneboyce.dev">me@shaneboyce.dev</a>
+      </nav>
+      <p>Built with a <a href="https://github.com/smcgb/static-site-generator">static site generator I wrote in Python</a>.</p>
+    </footer>
+  </body>
+</html>

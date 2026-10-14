@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Shane Boyce: data analyst, project manager, and Power Platform IT engineer in Portland, Oregon." />
+    <title>Automating Zendesk Custom Field Updates with an External Excel Sheet | Shane Boyce</title>
+    <link href="/index.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/">Shane Boyce</a>
+      <nav>
+        <a href="/about">About</a>
+        <a href="/projects">Projects</a>
+        <a href="/resume">Resume</a>
+        <a href="/contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <article><div><h1>Automating Zendesk Custom Field Updates with an External Excel Sheet</h1><p><b>Python · pandas · Zendesk API · Azure Functions · SharePoint · Excel</b> · <a href="https://github.com/smcgb/zd_field_update" >View the code</a></p><h2>The problem</h2><p>Zendesk custom fields have to stay current to be useful, and HR-driven fields like position titles and job classifications change all the time. Each change meant HR asking another team to update Zendesk by hand. The result was delays, miscommunication, and dropdowns that no longer matched reality.</p><h2>The approach</h2><p>I moved the source of truth to a place HR already worked: an Excel sheet in SharePoint. A Python script, run on Azure Functions, reads the sheet with pandas and updates the matching Zendesk custom field options automatically.</p><p>Non-technical users own the data. The script keeps Zendesk in sync.</p><h2>The results</h2><ul><li>Field options stay up to date without a ticket to IT</li><li>Fewer data-entry errors and less back-and-forth between departments</li><li>Consistent data across HR and support systems</li><li>Hours of manual admin work removed</li></ul><p>The code is MIT-licensed and easy to adapt to other fields.</p><p><a href="/projects" >Back to projects</a></p></div></article>
+    </main>
+
+    <footer class="site-footer">
+      <nav>
+        <a href="https://github.com/smcgb">GitHub</a>
+        <a href="https://linkedin.com/in/shane-boyce">LinkedIn</a>
+        <a href="https://www.youtube.com/@shanemboyce">YouTube</a>
+        <a href="mailto:me@shaneboyce.dev">me@shaneboyce.dev</a>
+      </nav>
+      <p>Built with a <a href="https://github.com/smcgb/static-site-generator">static site generator I wrote in Python</a>.</p>
+    </footer>
+  </body>
+</html>
